@@ -1,0 +1,36 @@
+#color1 .box_left{ background:#000}
+#color1 .select_color{ color:#555555}
+#color1 a{ color:#585858}
+#color1 .tittle strong, #color1 h2, #color1 .button, #color1 h3{ color:#131313;}
+#color1 .button{ background-image:url(../images/marker1_color1.gif)}
+#color1 .close{ background-image:url(../images/close_color1.gif)}
+#color1 .list1 li a{ background-image:url(../images/marker2_color1.gif)}
+
+
+#color2 .box_left{ background:#c41739}
+#color2 .select_color{ color:#e69eac}
+#color2 a{ color:#c41739}
+#color2 .tittle strong, #color2 h2, #color2 .button, #color2 h3{ color:#cb4d66;}
+#color2 .button{ background-image:url(../images/marker1_color2.gif)}
+#color2 .close{ background-image:url(../images/close_color2.gif)}
+#color2 .list1 li a{ background-image:url(../images/marker2_color2.gif)}
+
+
+
+#color3 .box_left{ background:#69347c}
+#color3 .select_color{ color:#936da0}
+#color3 a{ color:#69347c}
+#color3 .tittle strong, #color3 h2, #color3 .button, #color3 h3{ color:#9a66ad;}
+#color3 .button{ background-image:url(../images/marker1_color3.gif)}
+#color3 .close{ background-image:url(../images/close_color3.gif)}
+#color3 .list1 li a{ background-image:url(../images/marker2_color3.gif)}
+
+
+
+#color4 .box_left{ background:#cc007c}
+#color4 .select_color{ color:#ea94c8}
+#color4 a{ color:#cc007c}
+#color4 .tittle strong, #color4 h2, #color4 .button, #color4 h3{ color:#d55ea6;}
+#color4 .button{ background-image:url(../images/marker1_color4.gif)}
+#color4 .close{ background-image:url(../images/close_color4.gif)}
+#color4 .list1 li a{ background-image:url(../images/marker2_color4.gif)}

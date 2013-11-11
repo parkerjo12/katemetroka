@@ -1,0 +1,180 @@
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Left & Right alignment */
+
+.left { float:left;}
+.right { float:right;}
+.wrapper {width:100%; overflow:hidden;}
+
+
+
+/* Global properties ======================================================== */
+
+body{ background: url(../Content/images/bg.jpg) top center repeat; border:0; font:13px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#bdbdbd; line-height:18px; overflow: hidden; min-width:960px;}
+
+.css3{border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4); position: relative;}
+
+/* Global Structure ============================================================= */
+
+.spinner{ position:absolute; z-index:99; background: url(../Content/images/bg.jpg) top center repeat #fff ; width:100%; height:100%; top:0; left:0}
+.spinner > div{ position:absolute; background:url(../Content/images/ajax-loader.gif) 50% 50% no-repeat; width:100%; height:100%; top:0; left:0}
+
+
+.box_left{ position: absolute; z-index:2; width:358px; min-height:100%;box-shadow: 2px 0 5px rgba(0, 0, 0, .3); -moz-box-shadow: 2px 0 5px rgba(0, 0, 0, .3); -webkit-box-shadow: 2px 0 5px rgba(0, 0, 0, .3);}
+
+
+/* ============================= main layout ====================== */
+
+a{ text-decoration: none; outline:none}
+a:hover{ text-decoration: underline}
+h1{ padding:144px 0 0 0}
+h2{ font-size:34px; padding: 16px 0 0 0; line-height:1.2em; min-height:74px; }
+h2 strong{ font-weight:normal}
+h2 span{ display:block; font:12px Arial, Helvetica, sans-serif; color:#aeaeae; padding-top:2px}
+h3{ font-size:21px; line-height:1.2em; padding: 3px 0 8px 0; font-weight:400}
+h3 span{ font-size:17px; line-height:1.2em; display:block; color:#767676 !important; padding-top:2px;}
+h3 strong{ font-weight:400; margin-right:-20px;}
+h3 em{ display:block; font-style:normal; margin-top:-6px;}
+.letter_spacing{ letter-spacing:-1px;}
+p{ padding-bottom:18px;}
+
+/* ============================= header ====================== */
+header{ position:relative; z-index:3; padding-left:68px; height:830px; width:100%; overflow:hidden}
+
+.select_color{ float:left; width:358px; position:relative; z-index:3; font-size:17px; font-weight:400; text-transform:uppercase; text-align: right;}
+.select_color span{ padding-right:12px;}
+.select_color ul{ height:24px;}
+.select_color li{ float:left;}
+.select_color a{ height:15px; display:block; width:90px;}
+.select_color .color1{ background:#000;}
+.select_color .color2{ background:#c41739; width:89px}
+.select_color .color3{ background:#69347c;}
+.select_color .color4{ background:#cc007c; width:89px;}
+
+
+#logo{ display:block; background:url(../Content/images/logo.png) 0 0 no-repeat; width:216px; height:122px; text-indent:-9999px;}
+
+#menu { padding:115px 0 0 45px; width:125px;}
+#menu li { padding: 10px 0 10px 0; background: url(../Content/images/menu_line.png) bottom repeat-x;}
+#menu .end{ background:none}
+#menu li a{ display:block; font-size:13px; line-height:1.2em; color:#fff; text-align:center; text-transform:uppercase}
+#menu li a:hover, #menu .active a{ text-decoration:none;}
+
+/* ============================= content ====================== */
+
+#content{ height:580px; position:relative; z-index:1; padding-left:328px; padding-top:155px;}
+
+#content > ul > li{ width:100%; overflow:hidden;}
+
+.box{ background:#fff;box-shadow: 0 0 5px rgba(0, 0, 0, .1); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .1); -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .1); padding:17px; min-height:537px}
+
+#page_splash{ padding-top:35px;}
+#page_splash .grid_12{ width:720px;}
+#page_splash .box{ padding:10px; min-height:inherit}
+
+/* The Nivo Slider styles */
+.slider_box{ overflow:hidden; width:700px; height:525px;}
+.slider{ position:relative; width:700px; height:445px; z-index:88}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;	margin:0;z-index:60;display:none;}
+/* The slices in the Slider */
+.nivo-slice {display:block;	position:absolute;z-index:50;height:100%;}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav{ position: absolute;z-index:99; right:6px; bottom:-58px;}
+.nivo-controlNav a {position:relative;z-index:99;cursor:pointer; width:34px; height:34px; overflow:hidden; float:left; background: url(../Content/images/buttons.gif) right no-repeat; text-indent:-9999px;}
+.nivo-controlNav a.active , .nivo-controlNav a:hover { background-position:left}
+
+.tittle{ float:left; padding:17px 0 0 27px; font:12px Arial, Helvetica, sans-serif; color:#787878;}
+.tittle span{ color:#aeaeae}
+.tittle strong{ display:block; font-size:24px; font-weight:400; line-height:1.2em; padding-bottom:2px;}
+
+
+
+.scroll{ overflow:hidden; padding-left:40px; position:relative}
+
+.scroll1 { width:2220px; padding-right:20px;}
+.scroll2 { width:1260px; padding-right:20px;}
+.scroll3 { width:1200px; padding-right:20px;}
+.scroll4 { width:1380px; padding-right:20px;}
+.scroll5 { width:840px; padding-right:20px;}
+.scroll6 { width:1140px; padding-right:20px;}
+.scroll7 { width:780px; padding-right:20px;}
+
+.marker_left{ background:url(../Content/images/marker_left.png) 0 0 no-repeat; width:63px; height:120px; display:block; position:absolute; top:410px; left:400px; z-index:9;}
+.marker_right{ background:url(../Content/images/marker_right.png) 0 0 no-repeat; width:63px; height:120px; display:block; position:absolute; top:410px; right:20px; z-index:9}
+
+
+.pad{ padding:0 14px 0 23px}
+.pad1{ padding:0 19px 0 19px}
+.pad_bot1{ padding-bottom:23px;}
+.pad_bot2{ padding-bottom:6px;}
+.pad_top1{ padding-top:31px;}
+.pad_left1{ padding-left:25px;}
+.pad_left2{ padding-left:58px;}
+
+.cols{ float:left; width:182px;}
+
+.under{ border-top:1px solid #959595; margin-top:5px; padding-top:13px;}
+
+.button{ display:inline-block; font-size:19px; font-weight:500; line-height:1.2em; text-transform:uppercase; padding-right:20px; background-position: right 10px; background-repeat:no-repeat}
+.button:hover{ text-decoration:none; background-position:right -20px; color:#bdbdbd !important;}
+
+.font1{ font-size:17px; line-height:20px; text-transform:uppercase; font-weight:400; letter-spacing:-1px; padding-bottom:25px; color:#131313}
+
+.color1{ color:#585858}
+
+.close{ position:absolute; z-index:3; top:0; right:0px; width:30px; height:30px; background-position:0 0;}
+.close:hover{ background-position:bottom}
+
+.line1{ background:url(../Content/images/line_ver1.gif) 210px 0 repeat-y}
+.line2{ background:url(../Content/images/line_ver1.gif) 450px 0 repeat-y}
+
+
+#page_Photos h3{ padding-top:10px}
+#page_Videos .font1{ margin-top:-5px; padding-bottom:10px;}
+#page_Videos .pad_bot1{ padding-bottom:28px;}
+#page_Videos .pad{ padding-right:5px;}
+#page_Courses .pad_left2{ padding-left:18px;}
+
+
+/* Lightbox image */
+.lightbox-image {position:relative;overflow:hidden;	display:block; background:#fff; height: 200px; margin-bottom: 5px;}
+.lightbox-image img {position:relative;z-index:2;}
+.lightbox-image span {display:block;position:absolute;left:0;top:0;width:100%;height:100%;background: url(../Content/images/magnify.png) no-repeat 50% 50%;z-index:1;}
+.pp_details{ padding-bottom:0; margin-bottom:-15px !important;}
+
+.lightbox{ display: none;}
+
+.list1 { margin-top:-6px;}
+.list1 li{ line-height:30px;}
+.list1 li a, .list1 li span{ padding-left:20px; background-position:0 5px; background-repeat:no-repeat}
+.list1 li a:hover{ text-decoration:none; background-position:0 -25px; color:#bdbdbd !important}
+
+.address{ width:170px;}
+
+
+/* ============================= footer ====================== */
+
+footer { padding:19px 0 20px 78px; font:12px Arial, Helvetica, sans-serif; text-transform:uppercase; color:#fff;}
+footer a{ color:#fff !important}
+footer a:hover{}
+
+/* ============================= forms ============================= */
+
+#contact_form { padding-top:0;}
+#contact-form {}
+#contact-form .button { margin-left:25px; float: right; margin-right:5px;}
+#contact-form input {  width:365px; background: none; border-top:1px solid #7a7a7a; border-left:1px solid #7a7a7a; padding:4px 8px;  float:left; font:13px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#bdbdbd; height:16px; margin:0}
+#contact-form textarea { overflow: auto;width:365px; background: none; border-top:1px solid #7a7a7a; border-left:1px solid #7a7a7a; padding:4px 8px;  float:left; font:13px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#bdbdbd; height:270px;  margin:0}
+#contact-form fieldset {border:none; width:100%; overflow:hidden;}
+#contact-form .rowElem {display:block;position:relative; width:100%; overflow:hidden; min-height:40px;}
+#contact-form .textarea-box { width:100%;display:inline-block;position:relative; min-height:289px; overflow:hidden; padding-bottom:6px;}
+#contact-form label {padding:0;display: none;	font-size:10px;	position: relative;font-size:11px; left:10px;top:1px; margin-bottom:0px}
+#contact-form .error {color:#f70f35;}
+#contact-form fieldset {border:none;}
+div#contact_form .download-box p{padding:16px 30px;background:#fff; border:1px solid #cecece}
+#contact-form .bg{ float:left; background:#fff; border:1px solid #cecece}
