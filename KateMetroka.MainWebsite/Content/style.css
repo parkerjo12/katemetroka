@@ -158,6 +158,7 @@ header{ position:relative; z-index:3; padding-left:68px; height:830px; width:100
 
 .address{ width:170px;}
 
+.error {color:#f70f35;}
 
 /* ============================= footer ====================== */
 
@@ -176,7 +177,7 @@ footer a:hover{}
 #contact-form .rowElem {display:block;position:relative; width:100%; overflow:hidden; min-height:40px;}
 #contact-form .textarea-box { width:100%;display:inline-block;position:relative; min-height:289px; overflow:hidden; padding-bottom:6px;}
 #contact-form label {padding:0;display: none;	font-size:10px;	position: relative;font-size:11px; left:10px;top:1px; margin-bottom:0px}
-#contact-form .error {color:#f70f35;}
 #contact-form fieldset {border:none;}
 div#contact_form .download-box p{padding:16px 30px;background:#fff; border:1px solid #cecece}
+div#contact_form .download-box p.error{padding:16px 30px;background:#fff; border:1px solid #f70f35}
 #contact-form .bg{ float:left; background:#fff; border:1px solid #cecece}
