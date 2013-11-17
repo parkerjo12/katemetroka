@@ -2,7 +2,7 @@
 /* Getting the new tags to behave */
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
 mark, rp, rt, ruby, summary, time{ display: inline }
-
+ul ul, ol ul {list-style-type: none;}
 /* Left & Right alignment */
 
 .left { float:left;}
@@ -42,7 +42,7 @@ h3 em{ display:block; font-style:normal; margin-top:-6px;}
 p{ padding-bottom:18px;}
 
 /* ============================= header ====================== */
-header{ position:relative; z-index:3; padding-left:68px; height:830px; width:100%; overflow:hidden}
+header{ position:relative; z-index:3; padding-left:35px; height:830px; width:100%; overflow:hidden}
 
 .select_color{ float:left; width:358px; position:relative; z-index:3; font-size:17px; font-weight:400; text-transform:uppercase; text-align: right;}
 .select_color span{ padding-right:12px;}
@@ -55,9 +55,9 @@ header{ position:relative; z-index:3; padding-left:68px; height:830px; width:100
 .select_color .color4{ background:#cc007c; width:89px;}
 
 
-#logo{ display:block; background:url(../Content/images/logo.png) 0 0 no-repeat; width:216px; height:122px; text-indent:-9999px;}
+#logo{ display:block; background:url(../Content/images/KM_Logo.png) 0 0 no-repeat; width:260px; height:122px; text-indent:-9999px;}
 
-#menu { padding:115px 0 0 45px; width:125px;}
+#menu { padding:115px 0 0 60px; width:125px;}
 #menu li { padding: 10px 0 10px 0; background: url(../Content/images/menu_line.png) bottom repeat-x;}
 #menu .end{ background:none}
 #menu li a{ display:block; font-size:13px; line-height:1.2em; color:#fff; text-align:center; text-transform:uppercase}
@@ -105,7 +105,7 @@ header{ position:relative; z-index:3; padding-left:68px; height:830px; width:100
 .scroll7 { width:780px; padding-right:20px;}
 .scroll8 { width:1500px; padding-right:20px;}
 
-.marker_left{ background:url(../Content/images/marker_left.png) 0 0 no-repeat; width:63px; height:120px; display:block; position:absolute; top:410px; left:400px; z-index:9;}
+.marker_left{ background:url(../Content/images/marker_left.png) 0 0 no-repeat; width:63px; height:120px; display:block; position:absolute; top:410px; left:380px; z-index:9;}
 .marker_right{ background:url(../Content/images/marker_right.png) 0 0 no-repeat; width:63px; height:120px; display:block; position:absolute; top:410px; right:20px; z-index:9}
 
 
@@ -119,6 +119,7 @@ header{ position:relative; z-index:3; padding-left:68px; height:830px; width:100
 
 .cols{ float:left; width:182px;}
 .half{ float:left; width:440px;}
+.thirds { float: left; width: 290px;}
 
 .under{ border-top:1px solid #959595; margin-top:5px; padding-top:13px;}
 
