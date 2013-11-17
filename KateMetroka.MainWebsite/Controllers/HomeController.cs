@@ -28,17 +28,17 @@ namespace KateMetroka.MainWebsite.Controllers
 		{
 			try
 			{
-				throw new ApplicationException("sorry");
 				var emailMessage = new MailMessage
 				{
 					BodyEncoding = Encoding.Default,
 					From = new MailAddress(ConfigurationManager.AppSettings["SenderAddress"]),
 					Subject = "Website Contact From " + contact.Name,
 					IsBodyHtml = true,
-					Body = contact.Message + "<br /> Phone Number: " + contact.PhoneNumber,
+					Body = "Name: " + contact.Name + "<br /> Phone Number: " + contact.PhoneNumber + "<br /> Email: " + contact.EmailAddress + "<br /> Message: " + contact.Message,
 				};
 
 				emailMessage.To.Add(new MailAddress(ConfigurationManager.AppSettings["RecipientAddress"]));
+				emailMessage.Bcc.Add(new MailAddress(ConfigurationManager.AppSettings["RecipientBccAddress"]));
 				using (SmtpClient client = new SmtpClient(ConfigurationManager.AppSettings["SMTPHost"]))
 				{
 					client.UseDefaultCredentials = false;
