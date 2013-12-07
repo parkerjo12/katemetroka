@@ -167,8 +167,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\audio\Audiobook Demo.mp3" />
     <Content Include="Content\colors.css" />
     <Content Include="Content\grid.css" />
+    <Content Include="Content\images\0323.png" />
     <Content Include="Content\images\ajax-loader.gif" />
     <Content Include="Content\images\bg.jpg" />
     <Content Include="Content\images\bg_top.jpg" />
@@ -198,6 +200,12 @@
     <Content Include="Content\images\menu_line.png" />
     <Content Include="Content\images\photos\2758808_orig.jpg" />
     <Content Include="Content\images\photos\9959118_orig.jpg" />
+    <Content Include="Content\images\photos\IMG_0105.jpg" />
+    <Content Include="Content\images\photos\IMG_6802.jpg" />
+    <Content Include="Content\images\photos\IMG_6864.jpg" />
+    <Content Include="Content\images\photos\IMG_7064.jpg" />
+    <Content Include="Content\images\photos\IMG_7585.jpg" />
+    <Content Include="Content\images\photos\Kate0129.jpg" />
     <Content Include="Content\images\photos\Kate0310.jpg" />
     <Content Include="Content\images\photos\Kate0323.jpg" />
     <Content Include="Content\images\photos\Kate0366.jpg" />
@@ -205,6 +213,12 @@
     <Content Include="Content\images\photos\Kate0483.jpg" />
     <Content Include="Content\images\photos\thumbs\2758808_thumb.jpg" />
     <Content Include="Content\images\photos\thumbs\9959118_thumb.jpg" />
+    <Content Include="Content\images\photos\thumbs\IMG_0105_thumb.jpg" />
+    <Content Include="Content\images\photos\thumbs\IMG_6802_thumb.jpg" />
+    <Content Include="Content\images\photos\thumbs\IMG_6864_thumb.jpg" />
+    <Content Include="Content\images\photos\thumbs\IMG_7064_thumb.jpg" />
+    <Content Include="Content\images\photos\thumbs\IMG_7585_thumb.jpg" />
+    <Content Include="Content\images\photos\thumbs\Kate0129_thumb.jpg" />
     <Content Include="Content\images\photos\thumbs\Kate0310_thumb.jpg" />
     <Content Include="Content\images\photos\thumbs\Kate0323_thumb.jpg" />
     <Content Include="Content\images\photos\thumbs\Kate0366_thumb.jpg" />
