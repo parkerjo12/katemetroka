@@ -167,7 +167,8 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\audio\Audiobook Demo.mp3" />
+    <Content Include="Content\audio\aladdin_vo.mov" />
+    <Content Include="Content\audio\audiobook_demo.mp3" />
     <Content Include="Content\colors.css" />
     <Content Include="Content\grid.css" />
     <Content Include="Content\images\0323.png" />
