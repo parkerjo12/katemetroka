@@ -3,6 +3,7 @@
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
 mark, rp, rt, ruby, summary, time{ display: inline }
 ul ul, ol ul, ul, .menu, .dir {list-style-type: none;}
+label { color: #585858; }
 /* Left & Right alignment */
 
 .left { float:left;}
@@ -65,7 +66,7 @@ header{ position:relative; z-index:3; padding-left:35px; height:830px; width:100
 
 /* ============================= content ====================== */
 
-#content{ height:580px; position:relative; z-index:1; padding-left:328px; padding-top:155px;}
+#content{ height:725px; position:relative; z-index:1; padding-left:328px; padding-top:155px;}
 
 #content > ul > li{ width:100%; overflow:hidden;}
 
@@ -76,15 +77,15 @@ header{ position:relative; z-index:3; padding-left:35px; height:830px; width:100
 #page_splash .box{ padding:10px; min-height:inherit}
 
 /* The Nivo Slider styles */
-.slider_box{ overflow:hidden; width:700px; height:525px;}
-.slider{ position:relative; width:700px; height:445px; z-index:88}
+.slider_box{ overflow:hidden; width:700px; height:725px;}
+.slider{ position:relative; width:700px; height:645px; z-index:88}
 /* If an image is wrapped in a link */
 .nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;	margin:0;z-index:60;display:none;}
 /* The slices in the Slider */
 .nivo-slice {display:block;	position:absolute;z-index:50;height:100%;}
 
 /* Control nav styles (e.g. 1,2,3...) */
-.nivo-controlNav{ position: absolute;z-index:99; right:6px; bottom:-58px;}
+.nivo-controlNav{ position: absolute;z-index:99; right:6px; bottom:-28px;}
 .nivo-controlNav a {position:relative;z-index:99;cursor:pointer; width:34px; height:34px; overflow:hidden; float:left; background: url(../Content/images/buttons.gif) right no-repeat; text-indent:-9999px;}
 .nivo-controlNav a.active , .nivo-controlNav a:hover { background-position:left}
 
@@ -104,6 +105,7 @@ header{ position:relative; z-index:3; padding-left:35px; height:830px; width:100
 .scroll6 { width:1140px; padding-right:20px;}
 .scroll7 { width:780px; padding-right:20px;}
 .scroll8 { width:1500px; padding-right:20px;}
+.scroll_photos { width:3000px; padding-right:20px;}
 
 .marker_left{ background:url(../Content/images/marker_left.png) 0 0 no-repeat; width:63px; height:120px; display:block; position:absolute; top:410px; left:380px; z-index:9;}
 .marker_right{ background:url(../Content/images/marker_right.png) 0 0 no-repeat; width:63px; height:120px; display:block; position:absolute; top:410px; right:20px; z-index:9}
@@ -157,15 +159,17 @@ header{ position:relative; z-index:3; padding-left:35px; height:830px; width:100
 .list1 li a, .list1 li span{ padding-left:20px; background-position:0 5px; background-repeat:no-repeat}
 .list1 li a:hover{ text-decoration:none; background-position:0 -25px; color:#bdbdbd !important}
 
-.address{ width:170px;}
+.address a {text-decoration: underline; }
 
 .error {color:#f70f35;}
 
 /* ============================= footer ====================== */
 
-footer { padding:19px 0 20px 78px; font:12px Arial, Helvetica, sans-serif; text-transform:uppercase; color:#fff;}
+footer { padding: 0 0 0 55px; width: 125px; font:10px Arial, Helvetica, sans-serif; text-transform:uppercase; color:#fff !important; text-align: center; font-weight: bold;}
 footer a{ color:#fff !important}
 footer a:hover{}
+footer .title { color: #fff !important; font:15px Arial, Helvetica, sans-serif; font-weight: bold;}
+footer .subTitle { color: #fff !important; font-weight: bold; }
 
 /* ============================= forms ============================= */
 
