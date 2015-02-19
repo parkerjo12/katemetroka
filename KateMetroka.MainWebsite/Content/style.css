@@ -105,7 +105,7 @@ header{ position:relative; z-index:3; padding-left:35px; height:830px; width:100
 .scroll6 { width:1140px; padding-right:20px;}
 .scroll7 { width:780px; padding-right:20px;}
 .scroll8 { width:1500px; padding-right:20px;}
-.scroll_photos { width:3000px; padding-right:20px;}
+.scroll_photos { width:1140px; padding-right:20px;}
 
 .marker_left{ background:url(../Content/images/marker_left.png) 0 0 no-repeat; width:63px; height:120px; display:block; position:absolute; top:410px; left:380px; z-index:9;}
 .marker_right{ background:url(../Content/images/marker_right.png) 0 0 no-repeat; width:63px; height:120px; display:block; position:absolute; top:410px; right:20px; z-index:9}
